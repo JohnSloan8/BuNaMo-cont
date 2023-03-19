@@ -3,36 +3,49 @@ import copy
 import os
 import json
 
-all_noun_objects = []
+noun_XML_filenames = os.listdir('../BuNaMo/noun')
 
 def main():
-    noun_XML_filenames = os.listdir('../BuNaMo/noun')
 
+    default_noun_objects = {}
+    noun_variations_objects = []
+
+    count = 1
     for fname in noun_XML_filenames:
-        print('parsing ', fname)
-        objects_from_one_file = parse_one_xml_file('../BuNaMo/noun/' + fname)
-        all_noun_objects.extend(objects_from_one_file)
+        print(str(count) + ' ')
+        object_from_one_file = parse_one_xml_file('../BuNaMo/noun/' + fname)
+        default = object_from_one_file[0].pop('default')
+        default_noun_objects[default] = object_from_one_file[0]
+        noun_variations_objects.extend(object_from_one_file[1])
+        count += 1
 
-    with open('./nouns.json', 'w') as outfile:
-        json.dump(all_noun_objects, outfile, ensure_ascii=False)
+    with open('../converted-JSON-data/nouns/nouns_default.json', 'w') as outfile:
+        json.dump(default_noun_objects, outfile, ensure_ascii=False)
+
+    with open('../converted-JSON-data/nouns/nouns.json', 'w') as outfile:
+        json.dump(noun_variations_objects, outfile, ensure_ascii=False)
 
 def parse_one_xml_file(filename):
     mytree = ET.parse(filename)
     root = mytree.getroot()
-    json_objects = []
-    for el in root:
-        json_object = copy.deepcopy(root.attrib)
-        for item in el.items():
-            if item[0] == "default":
-                json_object["word"] = item[1]
-            else:
-                json_object[item[0]] = item[1]
 
-        json_object["number"] = el.tag[:2]
-        json_object["case"] = el.tag[2:].lower()
-        json_objects.append(json_object)
-    
-    return json_objects
+    default_json_object = copy.deepcopy(root.attrib)
+    json_variations = []
+    for el in root:       
+        el_json = {'default': default_json_object['default']}
+        for item in el.items():
+            if item[0] == 'default':
+                el_json['type'] = "noun"
+                el_json['word'] = item[1]
+                el_json['number'] = el.tag[:2].lower()
+                el_json['case'] = el.tag[2:].lower()
+                default_json_object[el.tag] = item[1]
+            else:
+                el_json[item[0]] = item[1]
+        json_variations.append(el_json)
+
+    return [default_json_object, json_variations]
 
 if __name__ == "__main__":
     main()
+    # parse_one_xml_file('../../BuNaMo/noun/abacas_masc.xml')
