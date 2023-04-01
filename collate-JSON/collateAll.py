@@ -1,7 +1,7 @@
 
 import json
 
-word_types = ["verbs", "nouns", "adjectives", "prepositions"]
+word_types = ["verbs", "nouns", "adjectives", "prepositions", "possessives", "pronouns"]
 verb_types = ["verbal_adjectives", "verbal_nouns", "moods"]
 def main():
 
@@ -20,7 +20,6 @@ def main():
         with open(f"../converted-JSON-data/verbs/{verb_type}.json") as json_file:
             data = json.load(json_file)
             for word_object in data:
-                print('word_object:', word_object)
                 if word_object['word'] in word_object_dictionary:
                     word_object_dictionary[word_object['word']].append(word_object)
                 else:
