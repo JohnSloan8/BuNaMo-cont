@@ -1,0 +1,104 @@
+[
+  {
+    "default": "siad",
+    "number": "pl",
+    "type": "pronoun",
+    "word": "siad",
+    "form": "subject"
+  },
+  {
+    "default": "siad",
+    "number": "pl",
+    "type": "pronoun",
+    "word": "iad",
+    "form": "object"
+  },
+  {
+    "default": "sibh",
+    "number": "pl",
+    "type": "pronoun",
+    "word": "sibh",
+    "form": "subject"
+  },
+  {
+    "default": "sibh",
+    "number": "pl",
+    "type": "pronoun",
+    "word": "sibh",
+    "form": "object"
+  },
+  {
+    "default": "muid",
+    "number": "pl",
+    "type": "pronoun",
+    "word": "muid",
+    "form": "subject"
+  },
+  {
+    "default": "muid",
+    "number": "pl",
+    "type": "pronoun",
+    "word": "sinn",
+    "form": "object"
+  },
+  {
+    "default": "mé",
+    "number": "sg",
+    "type": "pronoun",
+    "word": "mé",
+    "form": "subject"
+  },
+  {
+    "default": "mé",
+    "number": "sg",
+    "type": "pronoun",
+    "word": "mé",
+    "form": "object"
+  },
+  {
+    "default": "tú",
+    "number": "sg",
+    "type": "pronoun",
+    "word": "tú",
+    "form": "subject"
+  },
+  {
+    "default": "tú",
+    "number": "sg",
+    "type": "pronoun",
+    "word": "thú",
+    "form": "object"
+  },
+  {
+    "default": "sé",
+    "number": "sg",
+    "gender": "masc",
+    "type": "pronoun",
+    "word": "sé",
+    "form": "subject"
+  },
+  {
+    "default": "sé",
+    "number": "sg",
+    "gender": "masc",
+    "type": "pronoun",
+    "word": "é",
+    "form": "object"
+  },
+  {
+    "default": "sí",
+    "number": "sg",
+    "gender": "fem",
+    "type": "pronoun",
+    "word": "sí",
+    "form": "subject"
+  },
+  {
+    "default": "sí",
+    "number": "sg",
+    "gender": "fem",
+    "type": "pronoun",
+    "word": "í",
+    "form": "object"
+  }
+]
