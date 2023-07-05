@@ -3,7 +3,7 @@ import copy
 import os
 import json
 
-noun_XML_filenames = os.listdir('../BuNaMo/noun')
+noun_XML_filenames = os.listdir('../../BuNaMo/noun')
 
 def main():
 
@@ -13,7 +13,7 @@ def main():
     count = 1
     for fname in noun_XML_filenames:
         print(str(count) + ' ')
-        object_from_one_file = parse_one_xml_file('../BuNaMo/noun/' + fname)
+        object_from_one_file = parse_one_xml_file('../../BuNaMo/noun/' + fname)
         default = object_from_one_file[0].pop('default')
         default_noun_objects[default] = object_from_one_file[0]
         noun_variations_objects.extend(object_from_one_file[1])
@@ -32,9 +32,10 @@ def parse_one_xml_file(filename):
     default_json_object = copy.deepcopy(root.attrib)
     json_variations = []
     for el in root:       
-        el_json = {'default': default_json_object['default']}
+        el_json = {'default': default_json_object['default'], 'declension': default_json_object['declension']}
         for item in el.items():
             if item[0] == 'default':
+                
                 el_json['type'] = "noun"
                 el_json['word'] = item[1]
                 el_json['number'] = el.tag[:2].lower()
@@ -42,7 +43,9 @@ def parse_one_xml_file(filename):
                 default_json_object[el.tag] = item[1]
             else:
                 el_json[item[0]] = item[1]
+
         json_variations.append(el_json)
+    print('el_json:', el_json)
 
     return [default_json_object, json_variations]
 
