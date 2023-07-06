@@ -1,0 +1,9 @@
+{
+  "siad": { "nom": "siad", "acc": "iad" },
+  "sibh": { "nom": "sibh", "acc": "sibh" },
+  "muid": { "nom": "muid", "acc": "sinn" },
+  "mé": { "nom": "mé", "acc": "mé" },
+  "tú": { "nom": "tú", "acc": "tú" },
+  "sé": { "nom": "sé", "acc": "é" },
+  "sí": { "nom": "sí", "acc": "í" }
+}
