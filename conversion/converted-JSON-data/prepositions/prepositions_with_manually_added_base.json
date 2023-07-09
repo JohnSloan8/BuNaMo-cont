@@ -1,0 +1,471 @@
+[
+  {
+    "default": "thar",
+    "type": "preposition",
+    "word": "thar",
+    "person": "base"
+  },
+  {
+    "default": "thar",
+    "type": "preposition",
+    "word": "tharam",
+    "person": "sg1"
+  },
+  {
+    "default": "thar",
+    "type": "preposition",
+    "word": "tharat",
+    "person": "sg2"
+  },
+  {
+    "default": "thar",
+    "type": "preposition",
+    "word": "thairis",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "thar",
+    "type": "preposition",
+    "word": "thairsti",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  {
+    "default": "thar",
+    "type": "preposition",
+    "word": "tharainn",
+    "person": "pl1"
+  },
+  {
+    "default": "thar",
+    "type": "preposition",
+    "word": "tharaibh",
+    "person": "pl2"
+  },
+  {
+    "default": "thar",
+    "type": "preposition",
+    "word": "tharstu",
+    "person": "pl3"
+  },
+  { "default": "i", "type": "preposition", "word": "i", "person": "base" },
+  { "default": "i", "type": "preposition", "word": "ionam", "person": "sg1" },
+  { "default": "i", "type": "preposition", "word": "ionat", "person": "sg2" },
+  {
+    "default": "i",
+    "type": "preposition",
+    "word": "ann",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "i",
+    "type": "preposition",
+    "word": "inti",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  { "default": "i", "type": "preposition", "word": "ionainn", "person": "pl1" },
+  { "default": "i", "type": "preposition", "word": "ionaibh", "person": "pl2" },
+  { "default": "i", "type": "preposition", "word": "iontu", "person": "pl3" },
+  {
+    "default": "chun",
+    "type": "preposition",
+    "word": "chun",
+    "person": "base"
+  },
+  {
+    "default": "chun",
+    "type": "preposition",
+    "word": "chugam",
+    "person": "sg1"
+  },
+  {
+    "default": "chun",
+    "type": "preposition",
+    "word": "chugat",
+    "person": "sg2"
+  },
+  {
+    "default": "chun",
+    "type": "preposition",
+    "word": "chuige",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "chun",
+    "type": "preposition",
+    "word": "chuici",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  {
+    "default": "chun",
+    "type": "preposition",
+    "word": "chugainn",
+    "person": "pl1"
+  },
+  {
+    "default": "chun",
+    "type": "preposition",
+    "word": "chugaibh",
+    "person": "pl2"
+  },
+  {
+    "default": "chun",
+    "type": "preposition",
+    "word": "chucu",
+    "person": "pl3"
+  },
+  {
+    "default": "roimh",
+    "type": "preposition",
+    "word": "roimh",
+    "person": "base"
+  },
+  {
+    "default": "roimh",
+    "type": "preposition",
+    "word": "romham",
+    "person": "sg1"
+  },
+  {
+    "default": "roimh",
+    "type": "preposition",
+    "word": "romhat",
+    "person": "sg2"
+  },
+  {
+    "default": "roimh",
+    "type": "preposition",
+    "word": "roimhe",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "roimh",
+    "type": "preposition",
+    "word": "roimpi",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  {
+    "default": "roimh",
+    "type": "preposition",
+    "word": "romhainn",
+    "person": "pl1"
+  },
+  {
+    "default": "roimh",
+    "type": "preposition",
+    "word": "romhaibh",
+    "person": "pl2"
+  },
+  {
+    "default": "roimh",
+    "type": "preposition",
+    "word": "rompu",
+    "person": "pl3"
+  },
+  { "default": "as", "type": "preposition", "word": "as", "person": "base" },
+  { "default": "as", "type": "preposition", "word": "asam", "person": "sg1" },
+  { "default": "as", "type": "preposition", "word": "asat", "person": "sg2" },
+  {
+    "default": "as",
+    "type": "preposition",
+    "word": "as",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "as",
+    "type": "preposition",
+    "word": "aisti",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  { "default": "as", "type": "preposition", "word": "asainn", "person": "pl1" },
+  { "default": "as", "type": "preposition", "word": "asaibh", "person": "pl2" },
+  { "default": "as", "type": "preposition", "word": "astu", "person": "pl3" },
+  { "default": "ar", "type": "preposition", "word": "ar", "person": "base" },
+  { "default": "ar", "type": "preposition", "word": "orm", "person": "sg1" },
+  { "default": "ar", "type": "preposition", "word": "ort", "person": "sg2" },
+  {
+    "default": "ar",
+    "type": "preposition",
+    "word": "air",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "ar",
+    "type": "preposition",
+    "word": "uirthi",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  { "default": "ar", "type": "preposition", "word": "orainn", "person": "pl1" },
+  { "default": "ar", "type": "preposition", "word": "oraibh", "person": "pl2" },
+  { "default": "ar", "type": "preposition", "word": "orthu", "person": "pl3" },
+  { "default": "ó", "type": "preposition", "word": "ó", "person": "base" },
+  { "default": "ó", "type": "preposition", "word": "uaim", "person": "sg1" },
+  { "default": "ó", "type": "preposition", "word": "uait", "person": "sg2" },
+  {
+    "default": "ó",
+    "type": "preposition",
+    "word": "uaidh",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "ó",
+    "type": "preposition",
+    "word": "uaithi",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  { "default": "ó", "type": "preposition", "word": "uainn", "person": "pl1" },
+  { "default": "ó", "type": "preposition", "word": "uaibh", "person": "pl2" },
+  { "default": "ó", "type": "preposition", "word": "uathu", "person": "pl3" },
+  {
+    "default": "trí",
+    "type": "preposition",
+    "word": "trí",
+    "person": "base"
+  },
+  { "default": "trí", "type": "preposition", "word": "tríom", "person": "sg1" },
+  { "default": "trí", "type": "preposition", "word": "tríot", "person": "sg2" },
+
+  {
+    "default": "trí",
+    "type": "preposition",
+    "word": "tríd",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "trí",
+    "type": "preposition",
+    "word": "tríthi",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  { "default": "trí", "type": "preposition", "word": "trínn", "person": "pl1" },
+  { "default": "trí", "type": "preposition", "word": "tríbh", "person": "pl2" },
+  {
+    "default": "trí",
+    "type": "preposition",
+    "word": "tríothu",
+    "person": "pl3"
+  },
+  { "default": "um", "type": "preposition", "word": "um", "person": "base" },
+  { "default": "um", "type": "preposition", "word": "umam", "person": "sg1" },
+  { "default": "um", "type": "preposition", "word": "umat", "person": "sg2" },
+  {
+    "default": "um",
+    "type": "preposition",
+    "word": "uime",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "um",
+    "type": "preposition",
+    "word": "uimpi",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  { "default": "um", "type": "preposition", "word": "umainn", "person": "pl1" },
+  { "default": "um", "type": "preposition", "word": "umaibh", "person": "pl2" },
+  { "default": "um", "type": "preposition", "word": "umpu", "person": "pl3" },
+  {
+    "default": "chuig",
+    "type": "preposition",
+    "word": "chuig",
+    "person": "base"
+  },
+  {
+    "default": "chuig",
+    "type": "preposition",
+    "word": "chugam",
+    "person": "sg1"
+  },
+  {
+    "default": "chuig",
+    "type": "preposition",
+    "word": "chugat",
+    "person": "sg2"
+  },
+  {
+    "default": "chuig",
+    "type": "preposition",
+    "word": "chuige",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "chuig",
+    "type": "preposition",
+    "word": "chuici",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  {
+    "default": "chuig",
+    "type": "preposition",
+    "word": "chugainn",
+    "person": "pl1"
+  },
+  {
+    "default": "chuig",
+    "type": "preposition",
+    "word": "chugaibh",
+    "person": "pl2"
+  },
+  {
+    "default": "chuig",
+    "type": "preposition",
+    "word": "chucu",
+    "person": "pl3"
+  },
+  { "default": "ag", "type": "preposition", "word": "ag", "person": "base" },
+  { "default": "ag", "type": "preposition", "word": "agam", "person": "sg1" },
+  { "default": "ag", "type": "preposition", "word": "agat", "person": "sg2" },
+  {
+    "default": "ag",
+    "type": "preposition",
+    "word": "aige",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "ag",
+    "type": "preposition",
+    "word": "aici",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  { "default": "ag", "type": "preposition", "word": "againn", "person": "pl1" },
+  { "default": "ag", "type": "preposition", "word": "agaibh", "person": "pl2" },
+  { "default": "ag", "type": "preposition", "word": "acu", "person": "pl3" },
+  {
+    "default": "faoi",
+    "type": "preposition",
+    "word": "faoi",
+    "person": "base"
+  },
+  { "default": "faoi", "type": "preposition", "word": "fúm", "person": "sg1" },
+  { "default": "faoi", "type": "preposition", "word": "fút", "person": "sg2" },
+  {
+    "default": "faoi",
+    "type": "preposition",
+    "word": "faoi",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "faoi",
+    "type": "preposition",
+    "word": "fúithi",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  {
+    "default": "faoi",
+    "type": "preposition",
+    "word": "fúinn",
+    "person": "pl1"
+  },
+  {
+    "default": "faoi",
+    "type": "preposition",
+    "word": "fúibh",
+    "person": "pl2"
+  },
+  {
+    "default": "faoi",
+    "type": "preposition",
+    "word": "fúthu",
+    "person": "pl3"
+  },
+  { "default": "de", "type": "preposition", "word": "de", "person": "base" },
+  { "default": "de", "type": "preposition", "word": "díom", "person": "sg1" },
+  { "default": "de", "type": "preposition", "word": "díot", "person": "sg2" },
+  {
+    "default": "de",
+    "type": "preposition",
+    "word": "de",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "de",
+    "type": "preposition",
+    "word": "di",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  { "default": "de", "type": "preposition", "word": "dínn", "person": "pl1" },
+  { "default": "de", "type": "preposition", "word": "díbh", "person": "pl2" },
+  { "default": "de", "type": "preposition", "word": "díobh", "person": "pl3" },
+  {
+    "default": "idir",
+    "type": "preposition",
+    "word": "idir",
+    "person": "base"
+  },
+  {
+    "default": "idir",
+    "type": "preposition",
+    "word": "eadraibh",
+    "person": "pl2"
+  },
+  {
+    "default": "idir",
+    "type": "preposition",
+    "word": "eatarthu",
+    "person": "pl3"
+  },
+  { "default": "do", "type": "preposition", "word": "do", "person": "base" },
+  { "default": "do", "type": "preposition", "word": "dom", "person": "sg1" },
+  { "default": "do", "type": "preposition", "word": "duit", "person": "sg2" },
+  {
+    "default": "do",
+    "type": "preposition",
+    "word": "dó",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "do",
+    "type": "preposition",
+    "word": "di",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  { "default": "do", "type": "preposition", "word": "dúinn", "person": "pl1" },
+  { "default": "do", "type": "preposition", "word": "daoibh", "person": "pl2" },
+  { "default": "do", "type": "preposition", "word": "dóibh", "person": "pl3" },
+  { "default": "le", "type": "preposition", "word": "le", "person": "base" },
+  { "default": "le", "type": "preposition", "word": "liom", "person": "sg1" },
+  { "default": "le", "type": "preposition", "word": "leat", "person": "sg2" },
+  {
+    "default": "le",
+    "type": "preposition",
+    "word": "leis",
+    "person": "sg3",
+    "gender": "masc"
+  },
+  {
+    "default": "le",
+    "type": "preposition",
+    "word": "léi",
+    "person": "sg3",
+    "gender": "fem"
+  },
+  { "default": "le", "type": "preposition", "word": "linn", "person": "pl1" },
+  { "default": "le", "type": "preposition", "word": "libh", "person": "pl2" },
+  { "default": "le", "type": "preposition", "word": "leo", "person": "pl3" }
+]
